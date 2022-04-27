@@ -36,7 +36,6 @@ if str.lower(PlayInput) == "yes":
         else:
             SettingsInputA = input("What should the highest guessable number be? (Number)")
         if str.isnumeric(SettingsInputA):
-            print(type(SettingsInputA))
             HighestNumber = int(SettingsInputA)
             IncorrectArgsProvied = False
             break
